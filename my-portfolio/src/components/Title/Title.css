@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.titles {
+    @apply mt-[5%] ml-[5%];
+}
+
+.about-title {
+    @apply font-bold text-[26px];
+    font-family: 'Inter', sans-serif;
+}
+
+.title_boxes {
+    @apply flex;
+}
