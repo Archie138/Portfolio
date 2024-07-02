@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .portfolio {
-  @apply bg-[url('https://wallpapers.com/images/featured/pastel-gradient-background-etu0z7lbeebg6mlf.jpg')] h-[200vh] w-full bg-cover bg-repeat
+  @apply bg-[url('https://wallpapers.com/images/featured/pastel-gradient-background-etu0z7lbeebg6mlf.jpg')] h-full w-full bg-cover bg-repeat
 }
 
 /* :root {

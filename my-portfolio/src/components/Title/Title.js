@@ -1,6 +1,6 @@
 import React from "react";
 import "./Title.css";
-
+import skills from "../../data/skills.json";
 
 export const Title = () => {
     return (
@@ -22,6 +22,22 @@ export const Title = () => {
                     </div>
                     
                 </div>  
+
+                <div className="skills-section">
+                    <p className="font-bold"> SKILLS </p>
+
+                    <div className="skills-boxes">
+                        {
+                            skills.map((skill, id) => {
+                                return <div key={id}>
+                                    <div> 
+                                        <img src={skill.imageSrc} alt={skill.title} height="50px" width="50px"></img> 
+                                    </div>
+                                </div>
+                            })
+                        }
+                    </div>
+                </div>
                               
             </div>
         </>
