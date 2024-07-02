@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .titles {
-    @apply mt-[5%] ml-[5%];
+    @apply mt-[6%] ml-[5%] mb-[10%];
 }
 
 .about-title {
@@ -9,6 +9,22 @@
     font-family: 'Inter', sans-serif;
 }
 
-.title_boxes {
-    @apply flex;
+.title-boxes {
+    @apply flex justify-center space-x-4 pt-[7%];
+}
+
+.title1 {
+    @apply max-w-sm p-6 rounded-lg shadow-xl mr-[8%];   
+}
+
+.title2 {
+    @apply max-w-sm p-6 rounded-lg shadow-xl;    
+}
+
+.title1:hover {
+    @apply shadow-inner;
+}
+
+.title2:hover {
+    @apply shadow-inner;
 }

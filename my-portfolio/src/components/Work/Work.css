@@ -1,0 +1,4 @@
+.work-title {
+    @apply font-bold text-[26px] ml-[5%];
+    font-family: 'Inter', sans-serif;
+}
