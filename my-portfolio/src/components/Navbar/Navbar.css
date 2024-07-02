@@ -2,11 +2,11 @@
 
 .navbar {
   @apply relative flex items-center pt-[19px];
-  margin: 0 55%;
+  margin: 0 35%;
 }
 
 .menu {
-  @apply flex gap-[48px] list-none;
+  @apply flex gap-[20px] list-none;
 }
 
 .menu a {
