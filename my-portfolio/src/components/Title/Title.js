@@ -1,44 +1,25 @@
 import React from "react";
-import "./Title.css";
 
 export const Title = () => {
     return (
         <>
-            <div className="titles">
+            <div className="mt-[6%] mb-[10%]">
             
-                <p className="about-title"> ABOUT </p>
+                <p className="mb-[2%] text-[25px] ml-[5%] font-bold"> ABOUT </p>
 
-                <div className="title-boxes"> 
+                <div className="flex justify-center space-x-4 pt-[7%] mb-[5%] mt-[2%]"> 
                 
-                    <div className="title1">
+                    <div className="max-w-sm p-6 rounded-lg shadow-xl mr-[10%] hover:shadow-inner">
                         <p className="font-bold"> Frontend Developer </p>
                         <p> As a frontend developer, I specialize in creating engaging and responsive user interfaces that are both aesthetically pleasing and highly functional. </p>
                     </div>
 
-                    <div className="title2">
+                    <div className="max-w-sm p-6 rounded-lg shadow-xl mr-[10%] hover:shadow-inner">
                         <p className="font-bold"> AI/ML Engineer </p>
                         <p> I have a strong foundation in artificial intelligence and machine learning, enabling me to develop intelligent systems that can learn and adapt as required. </p>
                     </div>
                     
-                </div>  
-
-                {/* <div className="skills-section">
-                    <p className="skills-text"> SKILLS </p>
-
-                    <div className="skills-boxes">
-                        {
-                            skills.map((skill, id) => {
-                                
-                                return <div className="skill-box" key={id}>
-                                    <div className="skill"> 
-                                        <img src={skill.imageSrc} alt={skill.title} height="50px" width="50px"></img> 
-                                    </div>
-                                </div>
-                            })
-                        }
-                    </div>
-                </div> */}
-                              
+                </div>                                
             </div>
         </>
     )

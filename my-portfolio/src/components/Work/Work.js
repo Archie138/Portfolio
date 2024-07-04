@@ -6,13 +6,13 @@ export const Work = () => {
             {/* <div className="container px-4 py-8 mx-auto"> */}
                 <div className="mb-[5%] text-[25px] ml-[5%] font-bold"> WORK </div>
                 <div className="relative overflow-hidden wrap ml-[5%] mr-[5%]">
-                    <div className="absolute h-full border border-gray-700 border-2-2 border-opacity-20 left-1/2"></div>
+                    <div className="absolute h-full border border-gray-700 border-2-2 border-opacity-20 left-1/2 "></div>
                     <div className="flex items-center justify-between w-full mb-8 right-timeline">
                         <div className="order-1 w-5/12"></div>
                         <div className="z-20 flex items-center order-1 w-12 h-12 bg-pink-300 rounded-full shadow-xl">
                             <h1 className="mx-auto text-lg font-semibold text-white">+</h1>
                         </div>
-                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl">
+                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl hover:shadow-inner">
                             <h3 className="text-xl font-bold text-gray-800 ">Technology Intern - Mumzworld </h3>
                             <i className="mb-3 text-sm text-gray-800"> (June 2024 - Present) </i>
                             <p className="leading-tight text-gray-700">
@@ -27,7 +27,7 @@ export const Work = () => {
                         <div className="z-20 flex items-center order-1 w-12 h-12 bg-pink-300 rounded-full shadow-xl">
                             <h1 className="mx-auto text-lg font-semibold text-white">+</h1>
                         </div>
-                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl">
+                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl hover:shadow-inner">
                             <h3 className="mb-3 text-xl font-bold text-gray-800">Lab Assistant - Heriot Watt University</h3>
                             <i className="mb-3 text-sm text-gray-800"> (September 2023 - March 2024) </i>
                             <p className="leading-tight text-gray-700">
@@ -41,7 +41,7 @@ export const Work = () => {
                         <div className="z-20 flex items-center order-1 w-12 h-12 bg-pink-300 rounded-full shadow-xl">
                             <h1 className="mx-auto text-lg font-semibold text-white">+</h1>
                         </div>
-                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl">
+                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl hover:shadow-inner">
                             <h3 className="mb-3 text-xl font-bold text-gray-800">Intern - Cognida.ai</h3>
                             <i className="mb-3 text-sm text-gray-800"> (July 2023 - September 2023) </i>
                             <p className="leading-tight text-gray-700">
@@ -55,7 +55,7 @@ export const Work = () => {
                         <div className="z-20 flex items-center order-1 w-12 h-12 bg-pink-300 rounded-full shadow-xl">
                             <h1 className="mx-auto text-lg font-semibold text-white">+</h1>
                         </div>
-                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl">
+                        <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl hover:shadow-inner">
                             <h3 className="mb-3 text-xl font-bold text-gray-800">Software Developer Intern - Al Yousuf Motors </h3>
                             <i className="mb-3 text-sm text-gray-800"> (June 2023 - August 2023) </i>
                             <p className="leading-tight text-gray-700">
