@@ -9,7 +9,7 @@ export const Work = () => {
                     <div className="absolute h-full border border-gray-700 border-2-2 border-opacity-20 left-1/2 "></div>
                     <div className="flex items-center justify-between w-full mb-8 right-timeline">
                         <div className="order-1 w-5/12"></div>
-                        <div className="z-20 flex items-center order-1 w-12 h-12 bg-pink-300 rounded-full shadow-xl">
+                        <div className="z-20 flex items-center order-1 w-12 h-12 bg-pink-300 rounded-full shadow-xl z-4 ">
                             <h1 className="mx-auto text-lg font-semibold text-white">+</h1>
                         </div>
                         <div className="order-1 w-5/12 px-6 py-4 rounded-lg shadow-xl hover:shadow-inner">
