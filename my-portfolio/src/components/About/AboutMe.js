@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const AboutMe = () => {
     return (
         <>
@@ -8,7 +10,9 @@ export const AboutMe = () => {
                     <p className="text-black font-mono text-[20px] leading-normal mt-[20px]"> Turning coffee into code </p> 
                 </div>
                 <div className=" ml-[15%] mt-[5%]">
-                    <img src="https://github.com/Archie138/Portfolio/blob/main/my-portfolio/public/images/ak_img.png?raw=true" className="rounded-full shadow-lg z-1 h-15 w-15 md:w-60 md:h-60" alt="Dev image"></img>
+                    {/* <img src="https://github.com/Archie138/Portfolio/blob/main/my-portfolio/public/images/ak_img.png?raw=true" className="rounded-full shadow-lg z-1 h-15 w-15 md:w-60 md:h-60" alt="Dev image"></img> */}
+                    <Image src="https://github.com/Archie138/Portfolio/blob/main/my-portfolio/public/images/ak_img.png?raw=true" height="240" width="216" />
+                    
                 </div> 
                 
             </div>
