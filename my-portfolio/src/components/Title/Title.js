@@ -1,9 +1,7 @@
-import React from "react";
-
 export const Title = () => {
     return (
         <>
-            <div className="mt-[6%] mb-[10%]">
+            <div className="mt-[6%] mb-[10%] pt-[6%]">
             
                 <p className="mb-[2%] text-[25px] ml-[5%] font-bold"> ABOUT </p>
 

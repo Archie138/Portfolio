@@ -8,7 +8,7 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <div className="portfolio">
+    <div className="bg-[url('https://wallpapers.com/images/featured/pastel-gradient-background-etu0z7lbeebg6mlf.jpg')] h-full w-full bg-cover">
       <Navbar />
       <div id="home">
         <AboutMe />
